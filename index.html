@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maximillion Mega Menu</title>
+    <link rel="stylesheet" href="style.css" class="style">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Maximillion</div>
+        <ul class="nav-menu" id="navMenu">
+            <li class="nav-item">
+                <a href="#" class="nav-link active" id="whatWeDoLink">What we do</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link" id="ourWorkLink">Our Work</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Blog</a>
+            </li>
+        </ul>
+        <div class="search-container">
+            <div class="search-box">
+                <input type="text" placeholder="Search">
+                <span>🔍</span>
+            </div>
+            <div class="calendar-icon">📅</div>
+            <button class="cta-button">Get In Touch</button>
+        </div>
+        <button class="mobile-menu-toggle" id="mobileMenuToggle">☰</button>
+    </nav>
+
+    <div class="mega-menu" id="megaMenu">
+        <div class="mega-menu-content">
+            <div class="mega-menu-left">
+                <div class="mega-menu-title">
+                    <span>WHAT</span>
+                    <span>WE <span class="do-circle">DO</span></span>
+                </div>
+            </div>
+
+            <div class="mega-menu-columns">
+                <div class="menu-column">
+                    <div class="menu-column-item" data-submenu="eventPlanning">
+                        <a href="#">Event Planning</a>
+                    </div>
+                    <div class="menu-column-item" data-submenu="conference">
+                        <a href="#">Conference Planning</a>
+                    </div>
+                    <div class="menu-column-item" data-submenu="teamBuilding">
+                        <a href="#">Team Building</a>
+                    </div>
+                    <div class="menu-column-item" data-submenu="entertainment">
+                        <a href="#">Entertainment</a>
+                    </div>
+                    <div class="menu-column-item" data-submenu="locations">
+                        <a href="#">Popular locations</a>
+                    </div>
+                </div>
+
+                <div class="submenu-column active" id="eventPlanning">
+                    <div class="submenu-title">Overview</div>
+                    <div class="submenu-item"><a href="#">Indoor Activities</a></div>
+                    <div class="submenu-item"><a href="#">Outdoor Activities</a></div>
+                    <div class="submenu-item"><a href="#">Evening Experiences</a></div>
+                    <div class="submenu-item"><a href="#">Virtual & Hybrid</a></div>
+                    <div class="submenu-item"><a href="#">Treasure Hunts</a></div>
+                </div>
+
+                <div class="submenu-column" id="conference">
+                    <div class="submenu-title">Conference Planning</div>
+                    <div class="submenu-item"><a href="#">Full Service Planning</a></div>
+                    <div class="submenu-item"><a href="#">Venue Selection</a></div>
+                    <div class="submenu-item"><a href="#">Speaker Management</a></div>
+                    <div class="submenu-item"><a href="#">Audio Visual</a></div>
+                </div>
+
+                <div class="submenu-column" id="teamBuilding">
+                    <div class="submenu-title">Team Building</div>
+                    <div class="submenu-item"><a href="#">Problem Solving Activities</a></div>
+                    <div class="submenu-item"><a href="#">Communication Exercises</a></div>
+                    <div class="submenu-item"><a href="#">Leadership Development</a></div>
+                    <div class="submenu-item"><a href="#">Trust Building</a></div>
+                </div>
+
+                <div class="submenu-column" id="entertainment">
+                    <div class="submenu-title">Entertainment</div>
+                    <div class="submenu-item"><a href="#">Live Music</a></div>
+                    <div class="submenu-item"><a href="#">DJ Services</a></div>
+                    <div class="submenu-item"><a href="#">Performers</a></div>
+                    <div class="submenu-item"><a href="#">Interactive Experiences</a></div>
+                </div>
+
+                <div class="submenu-column" id="locations">
+                    <div class="submenu-title">Popular locations</div>
+                    <div class="submenu-item"><a href="#">London</a></div>
+                    <div class="submenu-item"><a href="#">Manchester</a></div>
+                    <div class="submenu-item"><a href="#">Birmingham</a></div>
+                    <div class="submenu-item"><a href="#">Edinburgh</a></div>
+                </div>
+            </div>
+
+            <div class="mega-menu-right">
+                <div class="inspo-lab-title">MEET OUR</div>
+                <div class="inspo-lab">
+                    <span class="inspo">INSPO</span> <span class="lab">LAB</span>
+                </div>
+                <div class="quiz-info">
+                    Take our quick <strong>4-step quiz</strong> and we'll use your answers to suggest tailored event ideas. A member of our team will get back to you within <strong>1 working day</strong>.
+                </div>
+                <button class="start-button">Let's Get Started</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="mega-menu" id="ourWorkMenu">
+        <div class="mega-menu-content">
+            <div class="mega-menu-left">
+                <div class="mega-menu-title">
+                    <span>OUR</span>
+                    <span>WORK</span>
+                </div>
+            </div>
+
+            <div class="mega-menu-columns">
+                <div class="menu-column">
+                    <div class="menu-column-item" data-submenu="work-case-studies" data-menu="work">
+                        <a href="#">Case Studies</a>
+                    </div>
+                    <div class="menu-column-item" data-submenu="work-testimonials" data-menu="work">
+                        <a href="#">Client Testimonials</a>
+                    </div>
+                    <div class="menu-column-item" data-submenu="work-portfolio" data-menu="work">
+                        <a href="#">Event Portfolio</a>
+                    </div>
+                    <div class="menu-column-item" data-submenu="work-awards" data-menu="work">
+                        <a href="#">Awards & Recognition</a>
+                    </div>
+                    <div class="menu-column-item" data-submenu="work-industries" data-menu="work">
+                        <a href="#">Industries Served</a>
+                    </div>
+                </div>
+
+                <div class="submenu-column active" id="work-case-studies">
+                    <div class="submenu-title">Featured Case Studies</div>
+                    <div class="submenu-item"><a href="#">Corporate Events</a></div>
+                    <div class="submenu-item"><a href="#">Product Launches</a></div>
+                    <div class="submenu-item"><a href="#">Team Building Success</a></div>
+                    <div class="submenu-item"><a href="#">Conferences & Summits</a></div>
+                    <div class="submenu-item"><a href="#">Virtual Events</a></div>
+                </div>
+
+                <div class="submenu-column" id="work-testimonials">
+                    <div class="submenu-title">What Clients Say</div>
+                    <div class="submenu-item"><a href="#">Fortune 500 Companies</a></div>
+                    <div class="submenu-item"><a href="#">Startups & Scale-ups</a></div>
+                    <div class="submenu-item"><a href="#">Non-Profit Organizations</a></div>
+                    <div class="submenu-item"><a href="#">Video Testimonials</a></div>
+                </div>
+
+                <div class="submenu-column" id="work-portfolio">
+                    <div class="submenu-title">Event Portfolio</div>
+                    <div class="submenu-item"><a href="#">Recent Events</a></div>
+                    <div class="submenu-item"><a href="#">Large Scale Events</a></div>
+                    <div class="submenu-item"><a href="#">Intimate Gatherings</a></div>
+                    <div class="submenu-item"><a href="#">International Events</a></div>
+                </div>
+
+                <div class="submenu-column" id="work-awards">
+                    <div class="submenu-title">Recognition</div>
+                    <div class="submenu-item"><a href="#">Industry Awards</a></div>
+                    <div class="submenu-item"><a href="#">Best Event Planner 2024</a></div>
+                    <div class="submenu-item"><a href="#">Client Choice Awards</a></div>
+                    <div class="submenu-item"><a href="#">Innovation in Events</a></div>
+                </div>
+
+                <div class="submenu-column" id="work-industries">
+                    <div class="submenu-title">Industries We Serve</div>
+                    <div class="submenu-item"><a href="#">Technology</a></div>
+                    <div class="submenu-item"><a href="#">Finance & Banking</a></div>
+                    <div class="submenu-item"><a href="#">Healthcare</a></div>
+                    <div class="submenu-item"><a href="#">Retail & E-commerce</a></div>
+                </div>
+            </div>
+
+            <div class="mega-menu-right">
+                <div class="inspo-lab-title">MEET OUR</div>
+                <div class="inspo-lab">
+                    <span class="inspo">INSPO</span> <span class="lab">LAB</span>
+                </div>
+                <div class="quiz-info">
+                    Take our quick <strong>4-step quiz</strong> and we'll use your answers to suggest tailored event ideas. A member of our team will get back to you within <strong>1 working day</strong>.
+                </div>
+                <button class="start-button">Let's Get Started</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
