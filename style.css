@@ -134,14 +134,14 @@ body {
     display: block;
 }
 
-.do-circle {
+/* .do-circle {
     display: inline-block;
     border: 3px solid #2c3e50;
     border-radius: 50%;
     padding: 5px 15px;
     font-size: 48px;
     margin-left: 10px;
-}
+} */
 
 .mega-menu-columns {
     display: flex;
