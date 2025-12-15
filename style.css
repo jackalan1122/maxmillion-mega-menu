@@ -205,7 +205,7 @@ body {
 }
 
 .menu-column-item:hover {
-    border-left: 4px solid #e74c3c;
+    border-left: 4px solid #F26A64;
 }
 
 .menu-column-item a {
@@ -217,7 +217,7 @@ body {
 }
 
 .menu-column-item:hover a {
-    color: #e74c3c;
+    color: #233648;
 }
 
 .submenu-column {
