@@ -157,7 +157,7 @@ body {
 .menu-column {
     flex: 0 0 280px;
     padding: 0 50px;
-    border-right: 1px solid #d0d0d0;
+    border-right: 2px solid #233648;
 }
 
 .menu-column-item {
@@ -173,7 +173,7 @@ body {
     transform: translateY(-50%);
     width: 0;
     height: 2px;
-    background-color: #5dade2;   /* blue line */
+    background-color: #233648;   /* blue line */
     transition: width 0.25s ease;
 }
 
