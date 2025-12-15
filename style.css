@@ -264,11 +264,11 @@ body {
 }
 
 .inspo-lab-title {
-    font-size: 13px;
-    color: #2c3e50;
+    font-size: 18px;
+    color: #233648;
     margin-bottom: 15px;
-    font-weight: 600;
-    letter-spacing: 1px;
+    font-weight: 900;
+    letter-spacing: 0%;
 }
 
 .inspo-lab {
@@ -299,15 +299,15 @@ body {
 }
 
 .start-button {
-    background: #d4e157;
+    background: #D7DF23;
     color: #2c3e50;
-    padding: 14px 35px;
+    padding: 10px 10px;
     border: none;
-    font-weight: bold;
+    font-weight: 800;
     cursor: pointer;
-    font-size: 15px;
+    font-size: 16px;
     margin-top: 10px;
-    border-radius: 0;
+    border-radius: 10px;
 }
 
 .work-stories-column {
