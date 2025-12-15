@@ -118,7 +118,7 @@ body {
 }
 
 .mega-menu-left {
-    background: #e8e8e8;
+    background: #ECEAE7;
     padding: 60px 40px;
     flex: 0 0 340px;
     display: flex;
@@ -253,7 +253,7 @@ body {
 }
 
 .mega-menu-right {
-    background: #e8e8e8;
+    background: #EBE9E7;
     padding: 60px 50px;
     flex: 0 0 480px;
     display: flex;
