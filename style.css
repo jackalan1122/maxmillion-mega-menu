@@ -279,11 +279,10 @@ body {
 }
 
 .inspo-lab .inspo {
-    color: #e74c3c;
-}
-
-.inspo-lab .lab {
-    color: #5dade2;
+     background: linear-gradient(90deg, #F17061, #DACE2C, #60B2CC);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .quiz-info {
