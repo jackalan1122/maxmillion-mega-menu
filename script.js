@@ -121,16 +121,16 @@ allMenuItems.forEach(item => {
 function switchSubmenu(item) {
     const submenuId = item.getAttribute('data-submenu');
     const menuType = item.getAttribute('data-menu');
-
+    
     // Determine which menu we're in
     const parentMenu = item.closest('.mega-menu');
     const submenuColumns = parentMenu.querySelectorAll('.submenu-column');
-
+    
     // Remove active class from all submenus in this menu
     submenuColumns.forEach(col => {
         col.classList.remove('active');
     });
-
+    
     // Add active class to the corresponding submenu
     const activeSubmenu = document.getElementById(submenuId);
     if (activeSubmenu) {
@@ -140,9 +140,9 @@ function switchSubmenu(item) {
 
 // Close mega menus when clicking outside
 document.addEventListener('click', (e) => {
-    if (!megaMenu.contains(e.target) &&
-        !ourWorkMenu.contains(e.target) &&
-        !whatWeDoLink.contains(e.target) &&
+    if (!megaMenu.contains(e.target) && 
+        !ourWorkMenu.contains(e.target) && 
+        !whatWeDoLink.contains(e.target) && 
         !ourWorkLink.contains(e.target)) {
         closeAllMegaMenus();
     }
