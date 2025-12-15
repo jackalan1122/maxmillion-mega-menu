@@ -160,6 +160,34 @@ body {
     border-right: 1px solid #d0d0d0;
 }
 
+.menu-column-item {
+    position: relative;
+}
+
+/* blue horizontal line */
+.menu-column-item::after {
+    content: "";
+    position: absolute;
+    right: -50px;                 /* sits on the border */
+    top: 50%;
+    transform: translateY(-50%);
+    width: 0;
+    height: 2px;
+    background-color: #5dade2;   /* blue line */
+    transition: width 0.25s ease;
+}
+
+/* show line on hover */
+.menu-column-item:hover::after {
+    width: 14px;
+}
+
+/* keep it visible for active submenu item */
+.menu-column-item.active::after {
+    width: 14px;
+}
+
+
 .submenu-column {
     flex: 1;
     padding: 0 50px;
